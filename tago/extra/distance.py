@@ -11,9 +11,8 @@ def myanalysis(context, scope):
     language = 'EN'
     mode = 'driving'
 
-    distance.measure(origins, destinations, language, mode)
     try:
-        print(console.log)
+        return distance.measure(origins, destinations, language, mode)
     except ValueError:
         print(console.log)
 
