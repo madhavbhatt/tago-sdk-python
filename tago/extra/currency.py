@@ -9,7 +9,6 @@ def myanalysis(context, scope):
     fro = 'USD'
     to = 'BRL'
 
-    currency.convert(fro, to)
     try:
         return currency.convert(fro, to)
     except ValueError:
