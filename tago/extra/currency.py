@@ -11,7 +11,7 @@ def myanalysis(context, scope):
 
     currency.convert(fro, to)
     try:
-        print(console.log)
+        return currency.convert(fro, to)
     except ValueError:
         print(console.log)
 
